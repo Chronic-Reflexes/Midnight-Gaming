@@ -5,6 +5,8 @@ title: "[Minecraft server Bug Report]"
 labels: ''
 assignees: ''
 
+---
+
 **Please fill out these reports PROPERLY**
 <!-- The first 3 sections are REQUIRED to be filled out-->
 
