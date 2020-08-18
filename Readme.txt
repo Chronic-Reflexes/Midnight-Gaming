@@ -3,4 +3,4 @@ Please navigate to Issues and click New issue. There are 2 templates setup. Clic
 
 Also if you are reporting a bug Please follow the example below Improperly written reports will be discarded
 
-![example](example.png)
+![example]("example.png")
