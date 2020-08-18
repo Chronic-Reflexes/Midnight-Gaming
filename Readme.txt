@@ -3,5 +3,4 @@ Please navigate to Issues and click New issue. There are 2 templates setup. Clic
 
 Also if you are reporting a bug Please follow the example below Improperly written reports will be discarded
 
-[Example](example.png)
-
+![Heres the example](https://media.discordapp.net/attachments/732513488454549556/745337649522540544/example.png?width=896&height=641)
