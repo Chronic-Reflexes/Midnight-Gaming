@@ -44,11 +44,6 @@ body:
     attributes:
       label: Screenshots / Videos
       description: If applicable, add screenshots to help explain your suggestion.
-
-  - type: input
-    attributes:
-      label: Error message (if applicable)
-      description: if there is an error message displayed in your chatbox, please put it here
       
   - type: checkboxes
     attributes:
