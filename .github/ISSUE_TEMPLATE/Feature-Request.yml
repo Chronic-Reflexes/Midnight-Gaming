@@ -1,0 +1,66 @@
+name: Feature Request
+description: Create a report to help us improve
+labels: 'Bug Report'
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your time in choosing to help us out, fill out this feature request form for the Midnight Minecraft Network! 
+        Please Fill out the following form to your best ability to give us an idea of how you would want your idea implemented.
+
+  - type: dropdown
+    attributes:
+      label: Server Implementation
+      description: Which server is the Feature Request regarding?
+      multiple: true
+      options:
+        - 'Survival Shard 1'
+        - 'Survival Shard 2'
+        - 'Survival Hub'
+        - 'Creative'
+        - 'Skygrid'
+        - 'Hub'
+        - 'Anarchy'
+    validations:
+      required: true
+
+
+  - type: textarea
+    attributes:
+      label: Describe your Feature Request
+      description: A clear and consise description of what your Feature Request is.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Expand Upon Ideas
+      description: Explain in futher detail of how your feature could work in favor for other players
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Screenshots / Videos
+      description: If applicable, add screenshots to help explain your suggestion.
+
+  - type: input
+    attributes:
+      label: Error message (if applicable)
+      description: if there is an error message displayed in your chatbox, please put it here
+      
+  - type: checkboxes
+    attributes:
+      label: Checklist
+      description: Make sure you have followed each of the steps outlined here.
+      options:
+        - label: I have made my feature reqest clear, and easy to read
+          required: true
+        - label: my suggestion is not a duplicate/similar to another suggestion.
+          required: true
+
+  - type: textarea
+    attributes:
+      label: Anything else?
+      description: You can provide additional context below.
