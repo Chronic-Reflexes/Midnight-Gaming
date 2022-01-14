@@ -16,13 +16,13 @@ body:
       description: Which server is the bug report regarding?
       multiple: false
       options:
-        - Survival Shard 1
-        - Survival Shard 2
-        - Survival Hub
-        - Creative
-        - Skygrid
-        - Hub
-        - Anarchy
+        - 'Survival Shard 1'
+        - 'Survival Shard 2'
+        - 'Survival Hub'
+        - 'Creative'
+        - 'Skygrid'
+        - 'Hub'
+        - 'Anarchy'
     validations:
       required: true
 
