@@ -1,6 +1,6 @@
 name: Feature Request
 description: Create a report to help us improve
-labels: ["Feature Request", "Triage"]
+labels: ["Feature Request", "triage"]
 
 body:
   - type: markdown
