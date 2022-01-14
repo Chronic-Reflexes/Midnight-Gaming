@@ -1,0 +1,94 @@
+name: Bug report
+description: Create a report to help us improve
+labels: 'Bug Report'
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your time in choosing to help us out, fill out this bug report for the Midnight Minecraft Network! 
+        Please Fill out the following form to your best ability to help us fix the problem.
+        Please only use this if you're absolutely sure that you found a bug and can reproduce it.
+
+  - type: dropdown
+    attributes:
+      label: Server Implementation
+      description: Which server is the bug report regarding?
+      multiple: false
+      options:
+        - Survival Shard 1
+        - Survival Shard 2
+        - Survival Hub
+        - Creative
+        - Skygrid
+        - Hub
+        - Anarchy
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Minecraft Version
+      description: Please choose the version of the minecraft client you use
+      multiple: false
+      options:
+        - '1.18.1'
+        - '1.17.1
+        - '1.16.5'
+        - '1.15.2'
+        - '1.14.4'
+        - '1.13.2'
+        - '1.12.2'
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: To Reproduce
+      description: Steps to reproduce this behaviour
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See error
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Expected behaviour
+      description: A clear and concise description of what you expected to happen.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Screenshots / Videos
+      description: If applicable, add screenshots to help explain your problem.
+
+  - type: input
+    attributes:
+      label: Error message (if applicable)
+      description: if there is an error message displayed in your chatbox, please put it here
+      
+  - type: checkboxes
+    attributes:
+      label: Checklist
+      description: Make sure you have followed each of the steps outlined here.
+      options:
+        - label: I have made my bug report clear, and easy to read
+          required: true
+        - label: I am using the native server version and the issue still persists.
+          required: true
+
+  - type: textarea
+    attributes:
+      label: Anything else?
+      description: You can provide additional context below.
